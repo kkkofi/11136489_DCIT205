@@ -10,9 +10,31 @@
     font-size: 30px;
     font-style: Gotham Bold;
     font-feature-settings: "kern", "liga", "pnum";
-
-    
 }
+
+.buttons {
+   display: flex;
+   margin-left: 800px;
+   justify-content: end;
+}
+.home-button,
+.about-button,
+.faculty-button,
+.research-group-button {
+   background-color: transparent;
+   border: none;
+   font-size: 15px;
+
+}
+.home-button:hover,
+.about-button:hover,
+.faculty-button:hover,
+.research-group-button:hover {
+   color:rgb(189, 156, 108) ;
+   cursor: pointer;
+}
+
+
 .first-image-container {
     width: 100%;
    position: relative;
@@ -113,14 +135,18 @@ font-family:"Open Sans", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
     margin-top: 15px;
     margin-bottom:8px ;
     border: none;
+    transition: 0.3s;
  }
  .apply-button:hover {
     cursor: pointer;
     text-decoration: underline;
+    background-color: black;
+   
  }
 
  .career1-container {
     display: block;
+    margin-left: 60px;
 
  }
 
@@ -137,3 +163,143 @@ font-family:"Open Sans", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
  .career-dropdown {
     color: rgb(33, 37, 41);
  }
+
+ .career1 {
+    display: inline-block;
+    margin-right: 50px;
+    border-bottom: 2px solid;
+    border-color: grey;
+    font-size: 25px;
+ }
+ .career2 {
+    margin-right: 50px;
+    border-bottom: 2px solid;
+    border-color: grey;
+    display: inline-block;
+    font-size: 25px;
+margin-left: 50px;
+ }
+ .career3 {
+    margin-left: 50px;
+    display: inline-block;
+    font-size: 25px;
+    border-bottom: 2px solid;
+    border-color: grey;
+ }
+
+ .career2-container {
+    display: block;
+    
+ }
+ .career4 {
+    margin-right: 100px;
+    display: inline-block;
+    font-size: 25px;
+    margin-right: 50px;
+    border-bottom: 2px solid;
+    border-color: grey;
+
+ }
+ .career5 {
+    margin-right: 50px;
+    display: inline-block;
+    font-size: 25px;
+    margin-left: 80px;
+    border-bottom: 2px solid;
+    border-color: grey;
+
+ }
+ .career6 {
+    margin-left: 50px;
+    display: inline-block;
+    font-size: 25px;
+    border-bottom: 2px solid;
+    border-color: grey;
+ }
+
+ .foot {
+    background-color: rgb(44, 42, 88);
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+ }
+
+ .last{
+    padding-top: 20px;
+    margin-top: 20px;
+    line-height: 35px;
+    padding-left: 40px;
+    color: white;
+    display: inline-block;
+ }
+
+ .aca-container,
+ .admission-container,
+ .Research-container,
+ .about-department,
+ .Newsletter-container,
+ .location-container,
+ .contact-container {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 40px;
+    height: 450px;
+ }
+ .aca-text,
+ .admission-text,
+ .department-text,
+ .research-text,
+ .newsletter-text,
+ .contact-text,
+ .location-text1 {
+    text-align: center;
+    font-size: 18px;
+    font-size: 22px;
+    font-family: Poppins, sans-serif;
+ }
+ .Newsletter-container,
+ .contact-container,
+ .location-container {
+   height: 350px;
+ }
+
+ .newsletter-info {
+   color: rgb(119, 119, 119);
+ }
+
+ .search-bar {
+   font-size: 18px;
+ }
+   
+
+ .location-container {
+   width: 230px;
+   line-height: 19px;
+ }
+ .contact-container {
+   line-height: 19px;
+
+ }
+
+ .location-text1 {
+margin-left: 80px;
+margin-top: 0px;
+}
+
+.undergraduate-button {
+   background-color: transparent;
+   border: none;
+   color: white;
+}
+
+.undergraduate-button:hover {
+   text-decoration: underline;
+   cursor: pointer;
+}
+
+
+
+
+
+
+

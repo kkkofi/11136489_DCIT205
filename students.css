@@ -1,0 +1,123 @@
+.UGlogo {
+    width: 280px;
+    display: inline-block;
+}
+
+.school-name {
+    display: inline-block;
+    vertical-align:top;
+    margin-left: 25px;
+    font-weight: bold;
+    font-size: 30px;
+    font-style: Gotham Bold;
+    font-feature-settings: "kern", "liga", "pnum";
+}
+
+.buttons {
+    display: flex;
+    margin-left: 800px;
+    justify-content: end;
+ }
+ .home-button,
+ .about-button,
+ .faculty-button,
+ .research-group-button {
+    background-color: transparent;
+    border: none;
+ 
+ }
+ .home-button:hover,
+ .about-button:hover,
+ .faculty-button:hover,
+ .research-group-button:hover {
+    color:rgb(189, 156, 108) ;
+    cursor: pointer;
+ }
+
+ .first-image-container {
+    position: relative;
+    left: 5%;
+ }
+
+ .text-container {
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    top: auto;
+    left: 5%;
+    height: 250px;
+    width: 500px;
+    background-color: rgb(41, 97, 188);
+ }
+ .text-header {
+    color: white;
+    font-size: 40px;
+    font-weight: 700px;
+    display: block;
+    font-family:"PT Sans", "Helvetica Neue", Helvetica, Arial, sa ;
+    text-align: center;
+ }
+.text-info {
+    color: white;
+    font-size: 25px;
+    padding-left: 90px;
+    padding-right: 60px;
+}
+ .main-image-container {
+    display: inline-block;
+    width: 200px;
+    vertical-align: top;
+    margin-left: 40px
+ }
+ .actual-pic {
+    width: 500px;
+    height: 250px;
+   
+ }
+
+ .second-set {
+    position: relative;
+    left: 10%;
+ }
+
+ .course-container,
+ .degree-container,
+ .library-container {
+    display: inline-block;
+    margin-right: 60px;
+ }
+ .image-course,
+ .image-degree,
+ .image-library,
+ .course-pic,
+ .degree-pic,
+ .library-pic {
+    width: 300px;
+    height: 200px;
+    vertical-align: top;
+    margin-top: 0px;
+
+ }
+
+ .course-header,
+ .degree-header,
+ .library-header {
+    background-color:rgb(161, 156, 150) ;
+    margin-bottom: 0px;
+    height: 100px;
+    text-align: center;
+    font-family: "PT Sans", "Helvetica Neue", Helvetica, Arial;
+    border-bottom: 3px solid;
+    border-color: white;
+    padding: 0%;
+ }
+
+ .image-course,
+ .image-degree,
+ .image-library {
+    position: relative;
+    bottom: 11%;
+ }
+ .library-header {
+    width: 300px;
+ 
