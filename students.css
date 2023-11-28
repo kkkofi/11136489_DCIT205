@@ -1,3 +1,10 @@
+.all {
+   background-color: rgb(234,234,234);
+}
+
+
+
+
 .UGlogo {
     width: 280px;
     display: inline-block;
@@ -21,7 +28,8 @@
  .home-button,
  .about-button,
  .faculty-button,
- .research-group-button {
+ .research-group-button,
+ .students-button {
     background-color: transparent;
     border: none;
  
@@ -29,7 +37,8 @@
  .home-button:hover,
  .about-button:hover,
  .faculty-button:hover,
- .research-group-button:hover {
+ .research-group-button:hover,
+ .students-button:hover {
     color:rgb(189, 156, 108) ;
     cursor: pointer;
  }
@@ -82,16 +91,22 @@
 
  .course-container,
  .degree-container,
- .library-container {
+ .library-container,
+ .examination-container,
+ .timetable-container {
     display: inline-block;
     margin-right: 60px;
  }
+ 
+ 
  .image-course,
  .image-degree,
  .image-library,
  .course-pic,
  .degree-pic,
- .library-pic {
+ .library-pic,
+ .image-examination,
+ .image-timetable {
     width: 300px;
     height: 200px;
     vertical-align: top;
@@ -101,7 +116,9 @@
 
  .course-header,
  .degree-header,
- .library-header {
+ .library-header,
+ .examination-header,
+ .timetable-header {
     background-color:rgb(161, 156, 150) ;
     margin-bottom: 0px;
     height: 100px;
@@ -110,6 +127,29 @@
     border-bottom: 3px solid;
     border-color: white;
     padding: 0%;
+    text-decoration: underline;
+ }
+ .course-header,
+ .degree-header,
+ .examination-header,
+ .timetable-header {
+   padding-top: 10px;
+ }
+
+ .course-header:hover {
+   cursor: pointer;
+    
+}
+
+
+ .examination-header,
+ .timetable-header {
+   width: 300px ;
+   margin-bottom: -5px;
+ }
+
+ .library-header:hover {
+   cursor: pointer;
  }
 
  .image-course,
@@ -120,4 +160,111 @@
  }
  .library-header {
     width: 300px;
- 
+ }
+
+ .image-examination,
+ .image-timetable {
+   position: relative;
+   top: 11%;
+ }
+
+ .foot {
+   background-color: rgb(44, 42, 88);
+   width: 100%;
+   height: auto;
+   margin-top: 20px;
+}
+
+.last{
+   padding-top: 20px;
+   margin-top: 20px;
+   line-height: 35px;
+   padding-left: 40px;
+   color: white;
+   display: inline-block;
+}
+
+.aca-container,
+.admission-container,
+.Research-container,
+.about-department,
+.Newsletter-container,
+.location-container,
+.contact-container {
+   display: inline-block;
+   vertical-align: top;
+   margin-right: 40px;
+   height: 450px;
+}
+.aca-text,
+.admission-text,
+.department-text,
+.research-text,
+.newsletter-text,
+.contact-text,
+.location-text1 {
+   text-align: center;
+   font-size: 18px;
+   font-size: 22px;
+   font-family: Poppins, sans-serif;
+}
+.Newsletter-container,
+.contact-container,
+.location-container {
+  height: 350px;
+}
+
+.newsletter-info {
+  color: rgb(119, 119, 119);
+}
+
+.search-bar {
+  font-size: 18px;
+}
+  
+
+.location-container {
+  width: 230px;
+  line-height: 19px;
+}
+.contact-container {
+  line-height: 19px;
+
+}
+
+.location-text1 {
+margin-left: 80px;
+margin-top: 0px;
+}
+
+.undergraduate-button {
+  background-color: transparent;
+  border: none;
+  color: white;
+}
+
+.undergraduate-button:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.map {
+   height: 348px;
+   width: 350px;
+   display: inline-block;
+   margin-left: 28px;
+   margin-right: 0px;
+}
+
+.map-pic {
+   height: 347px;
+   width: 345px;
+}
+
+
+
+
+
+
+
+

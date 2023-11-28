@@ -36,80 +36,105 @@
    cursor: pointer;
 }
 
-.head {
-    background-color: rgb(245, 245, 245);
+.all {
+    background-color:rgb(243, 241, 236) ;
 }
 
-.direct {
-    color: rgb(66, 139, 202);
 
-}
-.direct1 {
-    color:rgb(153, 153, 153) ;
-}
-
-.pic-container {
-    display: flex;
-    object-fit: contain;
-
-}
-
-.first-container {
+.first-set {
     display: inline-block;
     vertical-align: top;
-    margin-left: 40px;
-    margin-right: 300px;
-    background-color:rgb(234, 234, 234) ;
-
-}
-.intro-text1 {
-    color: rgb(0, 53, 148)
-}
-.intro-text-2 {
-    font-family: Rubik, "Helvetica Neue", Arial, sans-serif;
-    color:rgb(43, 43, 43) ;
-    font-size: 40px ;
-    font-weight: 700;
-}
-.info {
-    color:rgb(43, 43, 43) ;
-    font-family: Rubik, "Helvetica Neue", Arial, sans-serif;
-
-}
-.n1,
-.n2,
-.n3,
-.n4{
-    color: rgb(44, 42, 88);
+    margin-right: 30px;
 }
 
-.second-container {
-display: inline-block;
-vertical-align: top;
-background-color:rgb(234, 234, 234) ;
-}
-.future {
-    color: rgb(43, 43, 43);
-    font-family: Rubik, "Helvetica Neue", Arial, sans-serif;;
-}
-.under {
-    background-color:rgb(255, 184, 28) ;
+.alpha-underline {
+    text-decoration: underline;
+    border-bottom: 2px solid;
 }
 
-.check1,
-.check2 {
+.Title,
+.first-title {
+    font-size: 33px;
+    font-family:"PT Sans", "Helvetica Neue", Helvetica, Arial  ;
+    display: inline-block
+}   
+
+.second-set {
     display: inline-block;
 }
 
-.admission,
-.how {
-    display: inline-block;
+.Alpha,
+.Charlie,
+.Delta,
+.Echo,
+.Hotel,
+.India,
+.Mike,
+.Oscar,
+.Papa,
+.Sierra,
+.Tango {
+    color: rgb(161, 156, 150);
+    font-size: 28px;
 }
 
-.a,
-.b,
-.c {
-    display: block;
+.text1 ,
+.text2 ,
+.text3 ,
+.text4 ,
+.text5 ,
+.text6 ,
+.text7 ,
+.text8 ,
+.text9 ,
+.text10 ,
+.text11 ,
+.text12,
+.text13,
+.text14 ,
+.text15,
+.text16 ,
+.text17 ,
+.text18 ,
+.text19 ,
+.text20 ,
+.text21 ,
+.text22 ,
+.text23,
+.text24,
+.text25,
+.text26,
+.text26,
+.text27,
+.text28 ,
+.text29 ,
+.text30 ,
+.text31 ,
+.text32 ,
+.text33,
+.text34,
+.text35,
+.text36,
+.text37,
+.text38,
+.text38,
+.text39,
+.text40,
+.text41,
+.text42,
+.text43,
+.text44,
+.text45,
+.text46,
+.text47,
+.text48,
+.text49,
+.text50,
+.text51,
+.text52 {
+    color: rgb(66, 112, 169);
+    font-size: 16px;
+    font-family:"PT Sans", "Helvetica Neue", Helvetica, Arial ;
 }
 
 .foot {
@@ -182,29 +207,28 @@ margin-top: 0px;
 }
 
 .undergraduate-button {
-    background-color: transparent;
-    border: none;
-    color: white;
- }
- 
- .undergraduate-button:hover {
-    text-decoration: underline;
-    cursor: pointer;
- }
+   background-color: transparent;
+   border: none;
+   color: white;
+}
 
- .map {
-    height: 348px;
-    width: 350px;
-    display: inline-block;
-    margin-left: 28px;
-    margin-right: 0px;
- }
- 
- .map-pic {
-    height: 347px;
-    width: 345px;
- }
+.undergraduate-button:hover {
+   text-decoration: underline;
+   cursor: pointer;
+}
 
+.map {
+  height: 348px;
+  width: 350px;
+  display: inline-block;
+  margin-left: 28px;
+  margin-right: 0px;
+}
+
+.map-pic {
+  height: 347px;
+  width: 345px;
+}
 
 
 

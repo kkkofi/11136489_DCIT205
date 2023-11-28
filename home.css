@@ -1,3 +1,8 @@
+.all {
+   background-color: rgb(234, 234, 234)
+}
+
+
 .UGlogo {
     width: 280px;
     display: inline-block;
@@ -8,19 +13,20 @@
     margin-left: 25px;
     font-weight: bold;
     font-size: 30px;
-    font-style: Gotham Bold;
+    font-family: "PT Sans", "Helvetica Neue", Helvetica, Arial;
     font-feature-settings: "kern", "liga", "pnum";
 }
 
 .buttons {
    display: flex;
-   margin-left: 800px;
+   margin-left: 80px;
    justify-content: end;
 }
 .home-button,
 .about-button,
 .faculty-button,
-.research-group-button {
+.research-group-button,
+.students-button {
    background-color: transparent;
    border: none;
    font-size: 15px;
@@ -29,7 +35,8 @@
 .home-button:hover,
 .about-button:hover,
 .faculty-button:hover,
-.research-group-button:hover {
+.research-group-button:hover,
+.students-button:hover {
    color:rgb(189, 156, 108) ;
    cursor: pointer;
 }
@@ -262,6 +269,9 @@ margin-left: 50px;
  .location-container {
    height: 350px;
  }
+ .location-container {
+   margin-right: 0px;
+ }
 
  .newsletter-info {
    color: rgb(119, 119, 119);
@@ -295,6 +305,19 @@ margin-top: 0px;
 .undergraduate-button:hover {
    text-decoration: underline;
    cursor: pointer;
+}
+
+.map {
+   height: 348px;
+   width: 350px;
+   display: inline-block;
+   margin-left: 28px;
+   margin-right: 0px;
+}
+
+.map-pic {
+   height: 347px;
+   width: 345px;
 }
 
 

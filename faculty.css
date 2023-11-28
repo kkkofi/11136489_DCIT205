@@ -1,0 +1,319 @@
+.UGlogo {
+    width: 280px;
+    display: inline-block;
+}
+
+.buttons {
+    display: flex;
+    margin-left: 800px;
+    justify-content: end;
+ }
+ .home-button,
+ .about-button,
+ .faculty-button,
+ .research-group-button,
+ .students-button {
+    background-color: transparent;
+    border: none;
+ 
+ }
+ .home-button:hover,
+ .about-button:hover,
+ .faculty-button:hover,
+ .research-group-button:hover,
+ .students-button:hover {
+    color:rgb(189, 156, 108) ;
+    cursor: pointer;
+ }
+
+ .all {
+    background-color: rgb(243, 241, 236);
+ }
+
+ .directory {
+    color: grey;
+    font-size: 30px;
+ }
+
+ .main-container {
+    display: inline-block;
+    width: 700px;
+    height: auto;
+    box-shadow: 2px 2px 2px black;
+    margin-left: 40px;
+ }
+    
+ .first-container {
+    background-color: rgb(62, 16, 49);
+    height: 180px;
+    width: 700px;
+
+ }
+
+ .title1 {
+    color: white;
+    font-size: 38px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+ }
+
+ .title1-text {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+ }
+
+ .second-container {
+    width: 700px;
+    height: auto;
+    background-color: white;
+ }
+
+ .title2 {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+
+ }
+
+ .section1,
+ .section2,
+ .section3,
+ .section4,
+ .section5,
+ .section6,
+ .section7,
+ .section8,
+ .section9 {
+    height:210px ;
+    background-color:rgb(209, 192, 170) ;
+    margin-bottom: 10px;
+ }
+
+ .image1,
+ .image2, 
+ .image3, 
+ .image4,
+ .image5, 
+ .image6, 
+ .image7, 
+ .image8, 
+ .image9,
+ .pic1, 
+ .pic2,
+ .pic3, 
+ .pic4,
+ .pic5,
+ .pic6, 
+ .pic7,
+ .pic8, 
+ .pic9 {
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+ }
+
+ .text1,
+ .text2,
+ .text3,
+ .text4,
+ .text5,
+ .text6,
+ .text7,
+ .text8,
+ .text9 {
+    display: inline-block;
+    vertical-align:top;
+ }
+
+ .third-container {
+   display: inline-block;
+   vertical-align: top;
+   margin-top: 300px;
+
+ }
+
+ .box1 ,
+ .box2 {
+   background-color: white;
+   height: 270px;
+   width: 500px;
+ }
+
+ .box1-header,
+ .box2-header {
+   font-family: "PT Sans", "Helvetica Neue", Helvetica ;
+   font-weight: 700;
+   color: rgb(161, 156, 150);
+   font-size: 30px;
+   text-align: center;
+ }
+
+ .vacancy-button,
+ .button-info {
+   background-color: transparent;
+   color: black;
+   font-size: 16px;
+   font-family: "PT Sans", "Helvetica Neue", Helvetica ;
+   border-left-color: rgb(204, 204, 204);
+   border-right-color: rgb(204, 204, 204);
+   border-top-color: rgb(204, 204, 204);
+   border-bottom-color: rgb(204, 204, 204);
+   border: 2px solid;
+   border-radius: 2px;
+   padding-top: 3px;
+   padding-bottom: 3px;
+   transition: 0.3s;
+   margin-left: 180px;
+ }
+
+ .button-info {
+   color: rgb(66, 112, 169);
+   margin-left: 150px;
+
+ }
+
+ .area-info {
+   font-family:"PT Sans", "Helvetica Neue", Helvetica, ;
+   font-size:16px ;
+   color: rgb(53, 60, 71);
+   text-align: center;
+ }
+
+ .vacancy-button:hover,
+ .button-info:hover {
+   background-color: rgb(47, 47, 137);
+   color: white;
+   text-decoration: underline;
+ }
+
+ .area,
+ .area2 {
+   font-size: 24px;
+   font-family: "PT Sans", "Helvetica Neue", Helvetica;
+   color:rgb(53, 60, 71) ;
+   font-weight: 700;
+   text-align: center;
+ }
+
+
+ .foot {
+   background-color: rgb(44, 42, 88);
+   width: 100%;
+   height: auto;
+   margin-top: 20px;
+}
+
+.last{
+   padding-top: 20px;
+   margin-top: 20px;
+   line-height: 35px;
+   padding-left: 40px;
+   color: white;
+   display: inline-block;
+}
+
+.aca-container,
+.admission-container,
+.Research-container,
+.about-department,
+.Newsletter-container,
+.location-container,
+.contact-container {
+   display: inline-block;
+   vertical-align: top;
+   margin-right: 40px;
+   height: 450px;
+}
+.aca-text,
+.admission-text,
+.department-text,
+.research-text,
+.newsletter-text,
+.contact-text,
+.location-text1 {
+   text-align: center;
+   font-size: 18px;
+   font-size: 22px;
+   font-family: Poppins, sans-serif;
+}
+.Newsletter-container,
+.contact-container,
+.location-container {
+  height: 350px;
+}
+
+.newsletter-info {
+  color: rgb(119, 119, 119);
+}
+
+.search-bar {
+  font-size: 18px;
+}
+  
+
+.location-container {
+  width: 230px;
+  line-height: 19px;
+}
+.contact-container {
+  line-height: 19px;
+
+}
+
+.location-text1 {
+margin-left: 80px;
+margin-top: 0px;
+}
+
+.undergraduate-button {
+   background-color: transparent;
+   border: none;
+   color: white;
+}
+
+.undergraduate-button:hover {
+   text-decoration: underline;
+   cursor: pointer;
+}
+
+.map {
+   height: 348px;
+   width: 350px;
+   display: inline-block;
+   margin-left: 28px;
+   margin-right: 0px;
+}
+
+.map-pic {
+   height: 347px;
+   width: 345px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+ 
+ 
+
+
+
+ 

@@ -16,13 +16,14 @@
 
     <div class="buttons">
          <button onclick="document.location='http://127.0.0.1:5500/homewebsite.html'" class="home-button">HOME</button>
-         <button class="about-button">ABOUT</button>
-         <button class="faculty-button">FACULTY</button>
-         <button class="research-group-button">RESEARCH GROUPS</button>
+         <button onclick="document.location='http://127.0.0.1:5500/About.html'" class="about-button">ABOUT</button>
+         <button onclick="document.location='http://127.0.0.1:5500/faculty.html'"  class="faculty-button">FACULTY</button>
+         <button onclick= "document.location='http://127.0.0.1:5500/Students.html'" class="students-button" >OUR STUDENTS</button>
+         <button onclick= "document.location='http://127.0.0.1:5500/research.html'" class="research-group-button">RESEARCH GROUPS</button>
      </div>
     </header>
 
-    <main>
+    <main class="all">
         <div class="first-image-container">
             <div class="text-container">
                 <h1 class="text-header">OUR STUDENTS</h1>
@@ -39,7 +40,7 @@
         <div class="second-set">
             <div class="course-container">
                 <div class="course-header">
-                    <h1 class="head1"> Courses A-Z </h1>
+                    <h1 onclick= "document.location='http://127.0.0.1:5500/Course.html'" class="head1"> Courses A-Z </h1>
                 </div>
 
                 <div class="course-pic">
@@ -60,14 +61,38 @@
 
             <div class="library-container">
                 <div class="library-header">
-                    <h1 class="head3"> Online Resources & Library</h1>
+                    <h1 onclick="document.location='http://127.0.0.1:5500/library.html'" class="head3"> Online Resources & Library</h1>
                 </div>
 
                 <div class="library-pic">
                     <img class="image-library" src="images/library-pic.jpeg">
                 </div>
 
+                
 
+
+            </div>
+
+            <div class="third-set">
+                <div class="examination-container">
+                    <div class="examination-header">
+                        <h1 class="head4">Examinations</h1>
+                    </div>
+
+                    <div class="examination-pic">
+                        <img class="image-examination" src="images/student_exam.png">
+                    </div>
+                </div>
+
+                <div class="timetable-container">
+                    <div class="timetable-header">
+                        <h1 class="head5">Timetable</h1>
+                    </div>
+
+                    <div class="timetable-pic">
+                        <img class="image-timetable" src="images/student_timetable.png">
+                    </div>
+                </div>
             </div>
 
 
@@ -75,4 +100,90 @@
 
 
         </div>
+
+        <footer class="foot">
+            <div class="last">
+                <div class="aca-container">
+                  <h1 class="aca-text"> Academics</h1>
+                  <ul>
+                     <p> Undergraduate Courses</p>
+                     <p> Graduate Courses(MPhil Computer Science)</p>
+                     <p> Graduate Courses(MSc Computer Science)</p>
+                     <p> Graduate Couses(PhD)</p>
+                     <p> Academic Calender</p> 
+                     <p> Level 200 & 300 Timetable</p>
+                     <p> Placements For Level 200 Students</p>
+                     <p>Students Complaint Form</p> 
+                  </ul>
+                </div>
+            
+                <div class="admission-container">
+                    <h2 class="admission-text"> Admissions</h2>
+                    <ul>
+                        <button onclick="document.location='http://127.0.0.1:5500/Undergraduate.html'" class="undergraduate-button"> Undergraduate</button>
+                        <p> Graduate</p>
+                        <p> International Students</p>
+                        <p> Entry Requirements</p>
+                        <p> Contact Us</p>
+                    </ul>
+                </div>
+            
+                <div class="Research-container">
+                    <h3 class="research-text"> Research </h3>
+                    <ul>
+                        <p>Research at DCS</p>
+                        <p>Research Impact</p>
+                        <p> Libraries</p>
+                    </ul>
+                </div>
+            
+                <div class="about-department">
+                    <h4 class="department-text"> About The Department</h4>
+                    <ul>
+                        <p>Introducing DCS</p>  
+                        <p>Head Of Department's Office</p>
+                        <p>Faculty</p> 
+                        <p>Events</p>
+                    </ul>
+            
+                </div>
+            
+                <div class="Newsletter-container">
+                    <h5 class="newsletter-text">Newsletter</h5>
+                    <ul>
+                        <p class="newsletter-info">
+                            Stay up-to-date with our latest
+                        </p>
+                        <input class="search-bar" type="text" placeholder="Enter Email Address ">
+                    </ul>
+                </div>
+            
+                <div class="contact-container">
+                    <h6 class="contact-text"> Contact Us </h6>
+                    <ul>
+                        <p class="phone"> Phone & Email </p>
+                        <p class="number1">&#9743; &nbsp +233 501 382 035 </p>
+                        <p class="number2">&#9743; &nbsp +233 559 145 698</p>
+                        <p class="mail"> &#9993; &nbsp dcs@ug.edu.gh</p>
+                    </ul>
+                </div>
+            
+                <div class="location-container">
+                    <h7 class="location-text1"> Location</h7>
+                    <ul>
+                        <p class="name">University Of Ghana, Legon</p>
+                        <p class="where">Campus</p>
+                        <p class="at"> Opposite Mathematics Department</p>
+                    </ul>
+                </div>
+
+                <div class="map">
+                    <iframe class="map-pic"  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3970.404379035711!2d-0.18379069999997266!3d5.654499700000006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdf9d35c7bc40fd%3A0x760b35f47b34835d!2sComputer%20Science%20Department%2C%20University%20of%20Ghana!5e0!3m2!1sen!2sgh!4v1701046676128!5m2!1sen!2sgh" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+                </footer>
+            
+               
+            </body>
+            </html>
     
